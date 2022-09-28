@@ -31,7 +31,7 @@ function init()
     player2 = new Player("player2", 0x7f00ff, new THREE.Vector2(10, 0), 0);
     scene.add(player2.graphic);
 
-    player3 = new Player("player3", 0x7f00ff, new THREE.Vector2(150, 0), 0);
+    player3 = new Player("player3", 0x7f00ff, new THREE.Vector2(0, 20), 0);
     scene.add(player3.graphic);
 
     player4 = new Player("player4", 0x7f00ff, new THREE.Vector2(0, 50), 0);
