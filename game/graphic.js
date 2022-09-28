@@ -28,6 +28,15 @@ function init()
     player1 = new Player("player1", 0xffff00, new THREE.Vector2(50, 0), 0);
     scene.add(player1.graphic);
 
+    player2 = new Player("player2", 0x7f00ff, new THREE.Vector2(10, 0), 0);
+    scene.add(player2.graphic);
+
+    player3 = new Player("player3", 0x7f00ff, new THREE.Vector2(150, 0), 0);
+    scene.add(player3.graphic);
+
+    player4 = new Player("player4", 0x7f00ff, new THREE.Vector2(0, 50), 0);
+    scene.add(player4.graphic);
+
     light1 = new Light("sun", 0xffffff, "0,0,340");
     scene.add(light1);
 }
